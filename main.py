@@ -22,7 +22,7 @@ time.sleep(3)
 driver.get("https://webapp4.asu.edu/myasu/") 
 time.sleep(2)
 
-click_btn = pyautogui.locateCenterOnScreen('butt.png') #need button checker
+click_btn = pyautogui.locateCenterOnScreen('button.png') #need button checker
 print(click_btn)
 pyautogui.moveTo(click_btn)
 time.sleep(1)
